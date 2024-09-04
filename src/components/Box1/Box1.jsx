@@ -17,7 +17,7 @@ export default function Box1() {
         }}
         transition={{
           type: animate ? "spring" : "tween",
-          stiffness: animate ? 60 : 100, // to make faster type spring (duration : teen)
+          stiffness: animate ? 80 : 100, // to make faster type spring (duration : teen)
           //   damping: 10, // to make slower type spring
         }}
         onClick={() => setAnimate(!animate)}
