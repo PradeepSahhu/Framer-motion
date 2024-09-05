@@ -10,8 +10,8 @@ export default function PopUp() {
   });
   return (
     <div>
-      <div className="box-container">
-        {[1, 2, 3, 4].map((item) => {
+      <div className="box-containers">
+        {[1, 2, 3, 4, 5].map((item) => {
           return (
             <motion.div
               className="boxSpecial"

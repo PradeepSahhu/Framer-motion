@@ -9,6 +9,10 @@
 
 .box-container {
   padding-bottom: 20rem;
+}
+
+.box-containers {
+  padding-bottom: 20rem;
   display: flex;
 }
 
@@ -43,8 +47,27 @@
 }
 
 .animated {
+  position: absolute;
+  top: 130rem;
+  left: 10rem;
   display: block;
-  width: 100%;
+  justify-content: center;
+  width: 80%;
   height: 20rem;
   background-color: chocolate;
+}
+
+button {
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1.5rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 15rem;
+  cursor: pointer;
 }
