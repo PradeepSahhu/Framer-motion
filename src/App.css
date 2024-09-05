@@ -43,7 +43,8 @@
 }
 
 .animated {
-  width: 30rem;
+  display: block;
+  width: 100%;
   height: 20rem;
   background-color: chocolate;
 }

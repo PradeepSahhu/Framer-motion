@@ -9,19 +9,21 @@ export default function PopUp() {
     console.log(selectedId);
   });
   return (
-    <div className="box-container">
-      {[1, 2, 3, 4].map((item) => {
-        return (
-          <motion.div
-            className="boxSpecial"
-            layoutId={item}
-            onClick={() => setSelectedId(item)}
-          >
-            <motion.h5>{`Data to be shown`}</motion.h5>
-            <motion.h2>{`NO data to be shown`}</motion.h2>
-          </motion.div>
-        );
-      })}
+    <div>
+      <div className="box-container">
+        {[1, 2, 3, 4].map((item) => {
+          return (
+            <motion.div
+              className="boxSpecial"
+              layoutId={item}
+              onClick={() => setSelectedId(item)}
+            >
+              <motion.h5>{`Data to be shown`}</motion.h5>
+              <motion.h2>{`NO data to be shown`}</motion.h2>
+            </motion.div>
+          );
+        })}
+      </div>
 
       <AnimatePresence>
         {selectedId && (
